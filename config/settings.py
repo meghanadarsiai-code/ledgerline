@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ledger',
 ]
+AUTH_USER_MODEL = 'ledger.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
